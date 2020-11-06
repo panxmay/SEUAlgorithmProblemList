@@ -23,8 +23,8 @@ int main()
 	cin >> n;
 	while (n--) {
 		cin >> N >> C;
-		vector<int> weights(N+1,0);
-		vector<int> values(N+1,0);
+		vector<int> weights(N+1, 0);
+		vector<int> values(N+1, 0);
 		for (int i = 1; i <= N; i++) {
 
 			cin >> weights[i] >> values[i];
